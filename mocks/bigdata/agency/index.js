@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'express'; //引入express模块
 import Mock from 'mockjs'; //引入mock模块
 var router = express.Router()
 
