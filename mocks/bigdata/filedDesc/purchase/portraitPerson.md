@@ -1,5 +1,8 @@
 # 采购经理-个人画像
 #### 1.采购经理画像排名
+
+![RUNOOB 图标](./image/no1.jpg "采购经理画像排名")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no1>
 ```
 {
@@ -26,6 +29,9 @@
 ```
 
 #### 2.采购经理画像
+
+![RUNOOB 图标](./image/no2.jpg "采购经理画像")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no2>
 ```
 {
@@ -56,6 +62,9 @@
 ```
 
 #### 3.项目承担分析
+
+![RUNOOB 图标](./image/no3.jpg "项目承担分析")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no3>
 ```
 {
@@ -92,6 +101,9 @@
 ```
 
 #### 4.采购经理基本信息
+
+![RUNOOB 图标](./image/no4.jpg "采购经理基本信息")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no4>
 ```
 {
@@ -107,6 +119,9 @@
 ```
 
 #### 5.画像下钻纬度分析
+
+![RUNOOB 图标](./image/no5.jpg "画像下钻纬度分析")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no5>
 ```
 {
@@ -148,6 +163,9 @@
 ```
 
 #### 6.其他信息
+
+![RUNOOB 图标](./image/no6.jpg "其他信息")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no6>
 ```
 {
@@ -166,6 +184,9 @@
 ```
 
 #### 7.采购经理历年画像水平趋势分析
+
+![RUNOOB 图标](./image/no7.jpg "采购经理历年画像水平趋势分析")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no6>
 ```
 {
@@ -196,6 +217,9 @@
 ```
 
 #### 8.继续教育学习能力
+
+![RUNOOB 图标](./image/no8.jpg "继续教育学习能力")
+
 <http:192.168.3.54:8090/purchase/portraitPerson/no7>
 ```
 {
