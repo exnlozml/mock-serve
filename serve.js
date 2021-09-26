@@ -60,6 +60,8 @@ app.listen('8090');
 
 import agency from './mocks/bigdata/agency/index.js';
 import purchase from './mocks/bigdata/purchase/index.js';
+import portraitPerson from './mocks/bigdata/purchase/portraitPerson.js'
 
 app.use('/agency', agency);
 app.use('/purchase', purchase)
+app.use('/purchase/portraitPerson', portraitPerson);

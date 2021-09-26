@@ -4,16 +4,25 @@ var router = express.Router()
 
 // middleware that is specific to this router
 router.use(function timeLog (req, res, next) {
-	let date = new Date();
-  console.log('Time: ', date.getHours()+":"+date.getMinutes()+":"+date.getSeconds())
   next()
 })
 // define the home page route
 router.get('/', function (req, res) {
-  res.send('agency home page')
+	setTimeout(() => {
+		res.json(Mock.mock({
+			"status":200,
+			"data":{
+				"xdata":[1, 2, 3, 4, 5, 6],
+				"ydata":[0, 2, 1, 2, 2, 0]
+			}
+		}))
+	}, 1000);
+  
 })
 // define the about route
-router.post('/about', function (req, res) {
+router.all('/about', function (req, res) {
+	let date = new Date();
+  console.log('Time: ', date.getHours()+":"+date.getMinutes()+":"+date.getSeconds())
   console.log('Body: ',req.body);
   res.json(Mock.mock({
 		"status": 200,
